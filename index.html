@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Datainmobiliaria.cl - El mapa más completo de bienes raíces chileno. Próximamente disponible.">
+    <title>Datainmobiliaria.cl | Próximamente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background Image -->
+    <div class="background-image"></div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Logo Section -->
+        <div class="logo-section">
+            <div class="logo-icon">
+                <img src="logo_databam_smooth_v2.svg" alt="Databam Logo">
+            </div>
+            <h1 class="brand-name">
+                <span class="brand-data">Data</span><span class="brand-inmobiliaria">inmobiliaria</span><span
+                    class="brand-cl">.cl</span>
+            </h1>
+        </div>
+
+        <!-- Slogan -->
+        <p class="slogan">El mapa más completo de bienes raíces chileno</p>
+
+        <!-- Launch Announcement -->
+        <div class="launch-announcement">
+            <span class="launch-date">1 de Febrero 2026</span>
+        </div>
+
+        <!-- Countdown Section -->
+        <div class="countdown-container">
+            <div class="countdown-item">
+                <div class="countdown-glass">
+                    <span class="countdown-number" id="days">00</span>
+                </div>
+                <span class="countdown-label">Días</span>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+                <div class="countdown-glass">
+                    <span class="countdown-number" id="hours">00</span>
+                </div>
+                <span class="countdown-label">Horas</span>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+                <div class="countdown-glass">
+                    <span class="countdown-number" id="minutes">00</span>
+                </div>
+                <span class="countdown-label">Minutos</span>
+            </div>
+            <div class="countdown-separator">:</div>
+            <div class="countdown-item">
+                <div class="countdown-glass">
+                    <span class="countdown-number" id="seconds">00</span>
+                </div>
+                <span class="countdown-label">Segundos</span>
+            </div>
+        </div>
+
+        <!-- Email Subscription -->
+        <div class="subscribe-section">
+            <p class="subscribe-text">Sé el primero en explorar el mercado inmobiliario chileno<br>como nunca antes
+                explorado</p>
+            <form class="subscribe-form" id="subscribeForm">
+                <div class="input-wrapper">
+                    <input type="email" placeholder="Tu correo electrónico" required id="emailInput">
+                    <button type="submit" class="subscribe-btn">
+                        <span>Notifícame</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </form>
+            <p class="privacy-note">No spam. Solo te avisaremos cuando estemos listos.</p>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <rect x="2" y="2" width="20" height="20" rx="5" />
+                    <circle cx="12" cy="12" r="4" />
+                    <circle cx="18" cy="6" r="1.5" fill="currentColor" />
+                </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path
+                        d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                </svg>
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 Datainmobiliaria.cl - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="countdown.js"></script>
+</body>
+
+</html>
